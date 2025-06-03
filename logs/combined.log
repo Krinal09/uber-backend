@@ -1,0 +1,10 @@
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:26:33"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:27:09"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:27:25"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:29:16"}
+{"level":"info","message":"MongoDB connected successfully","service":"uber-clone","timestamp":"2025-05-16 00:31:37"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:31:46"}
+{"level":"info","message":"MongoDB connected successfully","service":"uber-clone","timestamp":"2025-05-16 00:31:51"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:32:24"}
+{"level":"info","message":"MongoDB connected successfully","service":"uber-clone","timestamp":"2025-05-16 00:32:29"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","service":"uber-clone","timestamp":"2025-05-16 00:34:42"}
