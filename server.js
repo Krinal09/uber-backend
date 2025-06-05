@@ -12,6 +12,8 @@ const mapsRoutes = require('./routes/maps.routes');
 const app = express();
 const server = http.createServer(app);
 
+app.get('/', (req, res) => res.json({ message: 'Welcome to the Uber API' }));
+
 // Middleware
 app.use(cors({
     origin: process.env.FRONTEND_URL || 'http://localhost:5173',
