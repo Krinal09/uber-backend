@@ -33,7 +33,11 @@ app.use('/api/maps', mapsRoutes);
 
 // Health check route
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'ok' });
+  res.status(200).json({
+    status: 'ok',
+    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
+    timestamp: new Date().toISOString()
+  });
 });
 
 // Error handling middleware
