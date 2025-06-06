@@ -1,6 +1,6 @@
 const userModel = require('../models/user.model');
 const jwt = require('jsonwebtoken');
-const blackListTokenModel = require('../models/blacklistToken.model');
+const blackListTokenModel = require('../models/blackListToken.model');
 const captainModel = require('../models/captain.model');
 
 const getTokenFromRequest = (req) => {
