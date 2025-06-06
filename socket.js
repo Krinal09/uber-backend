@@ -2,7 +2,7 @@ const { Server } = require('socket.io');
 const jwt = require('jsonwebtoken');
 const userModel = require('./models/user.model');
 const captainModel = require('./models/captain.model');
-const blackListTokenModel = require('./models/blacklistToken.model');
+const blackListTokenModel = require('./models/blackListToken.model');
 const Chat = require('./models/chat.model');
 const rideModel = require('./models/ride.model');
 
