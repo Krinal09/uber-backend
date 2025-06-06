@@ -1,6 +1,6 @@
 const rideModel = require('../models/ride.model');
 const mapService = require('./maps.service');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 const { getIO } = require('../socket');
 const { generateOTP } = require('../utils/helpers');
