@@ -16,7 +16,7 @@ app.get('/', (req, res) => res.json({ message: 'Welcome to the Uber API' }));
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: process.env.FRONTEND_URL || 'https://uber-clone-krnl.onrender.com',
     credentials: true
 }));
 app.use(express.json());
